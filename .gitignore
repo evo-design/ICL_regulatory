@@ -1,0 +1,25 @@
+# Model weights: ~27 GB, distributed as release assets. See ckpt/README.md.
+ckpt/*
+!ckpt/README.md
+
+# Third-party scoring models. Two of the four (GEMORNA, PARM) may not be
+# redistributed, so nothing here is tracked. See oracles/README.md.
+oracles/*
+!oracles/README.md
+!oracles/env.sh.example
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Run outputs
+wandb/
+lightning_logs/
+# Contents only, so a subdirectory can keep a tracked .gitkeep.
+/logs/*
+*.log
+checkpoints/
+results/

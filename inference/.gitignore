@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Stage outputs: prompts, generations and scored tables. All regenerable.
+out/
