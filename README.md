@@ -15,7 +15,7 @@ it. The repo contains two parts:
 
 - **Evo 2** — https://github.com/arcinstitute/evo2 (the `evo2` package and its
   `vortex` backend)
-- **Evo 2 vLLM engine** — (used via `sys.path`)
+- **Evo 2 vLLM engine** — https://github.com/evo-design/evo2_flash
 
 ## Environments
 
